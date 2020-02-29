@@ -58,6 +58,10 @@
     <Compile Include="MODEL\ORM\Entity\Movie.cs" />
     <Compile Include="MODEL\ORM\Entity\MovieActor.cs" />
     <Compile Include="MODEL\ORM\Entity\MovieCategory.cs" />
+    <Compile Include="MODEL\ORM\Entity\Saloon.cs" />
+    <Compile Include="MODEL\ORM\Entity\Session.cs" />
+    <Compile Include="MODEL\ORM\Entity\Theater.cs" />
+    <Compile Include="MODEL\ORM\Entity\Week.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup />

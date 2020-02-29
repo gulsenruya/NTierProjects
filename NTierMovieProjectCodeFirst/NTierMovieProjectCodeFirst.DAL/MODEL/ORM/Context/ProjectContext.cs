@@ -21,6 +21,11 @@ namespace NTierMovieProjectCodeFirst.DAL.MODEL.ORM.Context
         //Many To Many
         public DbSet<MovieCategory>  MovieCategories { get; set; }
         public DbSet<MovieActor>  MovieActors { get; set; }
+
+        public DbSet<Theater> Theaters { get; set; }
+        public DbSet<Saloon> Saloons { get; set; }
+        public DbSet<Session> Sessions { get; set; }
+        public DbSet<Week> Weeks { get; set; }
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
             modelBuilder.Entity<MovieCategory>().HasKey(x => new

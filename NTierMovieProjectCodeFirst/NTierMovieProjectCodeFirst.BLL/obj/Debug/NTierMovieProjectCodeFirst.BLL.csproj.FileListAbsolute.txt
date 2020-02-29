@@ -13,3 +13,17 @@ C:\Users\gulsen.ruya\source\repos\NTierMovieProjectCodeFirst\NTierMovieProjectCo
 C:\Users\gulsen.ruya\source\repos\NTierMovieProjectCodeFirst\NTierMovieProjectCodeFirst.BLL\obj\Debug\NTierMovieProjectCodeFirst.BLL.csproj.CopyComplete
 C:\Users\gulsen.ruya\source\repos\NTierMovieProjectCodeFirst\NTierMovieProjectCodeFirst.BLL\obj\Debug\NTierMovieProjectCodeFirst.BLL.dll
 C:\Users\gulsen.ruya\source\repos\NTierMovieProjectCodeFirst\NTierMovieProjectCodeFirst.BLL\obj\Debug\NTierMovieProjectCodeFirst.BLL.pdb
+C:\Users\gulsen\Desktop\NTier\NTierMovieProjectCodeFirst\NTierMovieProjectCodeFirst.BLL\bin\Debug\NTierMovieProjectCodeFirst.BLL.dll.config
+C:\Users\gulsen\Desktop\NTier\NTierMovieProjectCodeFirst\NTierMovieProjectCodeFirst.BLL\bin\Debug\NTierMovieProjectCodeFirst.BLL.dll
+C:\Users\gulsen\Desktop\NTier\NTierMovieProjectCodeFirst\NTierMovieProjectCodeFirst.BLL\bin\Debug\NTierMovieProjectCodeFirst.BLL.pdb
+C:\Users\gulsen\Desktop\NTier\NTierMovieProjectCodeFirst\NTierMovieProjectCodeFirst.BLL\bin\Debug\EntityFramework.dll
+C:\Users\gulsen\Desktop\NTier\NTierMovieProjectCodeFirst\NTierMovieProjectCodeFirst.BLL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\gulsen\Desktop\NTier\NTierMovieProjectCodeFirst\NTierMovieProjectCodeFirst.BLL\bin\Debug\NTierMovieProjectCodeFirst.DAL.dll
+C:\Users\gulsen\Desktop\NTier\NTierMovieProjectCodeFirst\NTierMovieProjectCodeFirst.BLL\bin\Debug\NTierMovieProjectCodeFirst.DAL.pdb
+C:\Users\gulsen\Desktop\NTier\NTierMovieProjectCodeFirst\NTierMovieProjectCodeFirst.BLL\bin\Debug\NTierMovieProjectCodeFirst.DAL.dll.config
+C:\Users\gulsen\Desktop\NTier\NTierMovieProjectCodeFirst\NTierMovieProjectCodeFirst.BLL\bin\Debug\EntityFramework.xml
+C:\Users\gulsen\Desktop\NTier\NTierMovieProjectCodeFirst\NTierMovieProjectCodeFirst.BLL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\gulsen\Desktop\NTier\NTierMovieProjectCodeFirst\NTierMovieProjectCodeFirst.BLL\obj\Debug\NTierMovieProjectCodeFirst.BLL.csprojAssemblyReference.cache
+C:\Users\gulsen\Desktop\NTier\NTierMovieProjectCodeFirst\NTierMovieProjectCodeFirst.BLL\obj\Debug\NTierMovieProjectCodeFirst.BLL.csproj.CopyComplete
+C:\Users\gulsen\Desktop\NTier\NTierMovieProjectCodeFirst\NTierMovieProjectCodeFirst.BLL\obj\Debug\NTierMovieProjectCodeFirst.BLL.dll
+C:\Users\gulsen\Desktop\NTier\NTierMovieProjectCodeFirst\NTierMovieProjectCodeFirst.BLL\obj\Debug\NTierMovieProjectCodeFirst.BLL.pdb

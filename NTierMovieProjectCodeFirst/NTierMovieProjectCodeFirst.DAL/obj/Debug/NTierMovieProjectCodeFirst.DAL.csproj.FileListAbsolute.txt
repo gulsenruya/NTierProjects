@@ -10,3 +10,14 @@ C:\Users\gulsen.ruya\source\repos\NTierMovieProjectCodeFirst\NTierMovieProjectCo
 C:\Users\gulsen.ruya\source\repos\NTierMovieProjectCodeFirst\NTierMovieProjectCodeFirst.DAL\obj\Debug\NTierMovieProjectCodeFirst.DAL.csproj.CopyComplete
 C:\Users\gulsen.ruya\source\repos\NTierMovieProjectCodeFirst\NTierMovieProjectCodeFirst.DAL\obj\Debug\NTierMovieProjectCodeFirst.DAL.dll
 C:\Users\gulsen.ruya\source\repos\NTierMovieProjectCodeFirst\NTierMovieProjectCodeFirst.DAL\obj\Debug\NTierMovieProjectCodeFirst.DAL.pdb
+C:\Users\gulsen\Desktop\NTier\NTierMovieProjectCodeFirst\NTierMovieProjectCodeFirst.DAL\bin\Debug\NTierMovieProjectCodeFirst.DAL.dll.config
+C:\Users\gulsen\Desktop\NTier\NTierMovieProjectCodeFirst\NTierMovieProjectCodeFirst.DAL\bin\Debug\NTierMovieProjectCodeFirst.DAL.dll
+C:\Users\gulsen\Desktop\NTier\NTierMovieProjectCodeFirst\NTierMovieProjectCodeFirst.DAL\bin\Debug\NTierMovieProjectCodeFirst.DAL.pdb
+C:\Users\gulsen\Desktop\NTier\NTierMovieProjectCodeFirst\NTierMovieProjectCodeFirst.DAL\bin\Debug\EntityFramework.dll
+C:\Users\gulsen\Desktop\NTier\NTierMovieProjectCodeFirst\NTierMovieProjectCodeFirst.DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\gulsen\Desktop\NTier\NTierMovieProjectCodeFirst\NTierMovieProjectCodeFirst.DAL\bin\Debug\EntityFramework.xml
+C:\Users\gulsen\Desktop\NTier\NTierMovieProjectCodeFirst\NTierMovieProjectCodeFirst.DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\gulsen\Desktop\NTier\NTierMovieProjectCodeFirst\NTierMovieProjectCodeFirst.DAL\obj\Debug\NTierMovieProjectCodeFirst.DAL.csprojAssemblyReference.cache
+C:\Users\gulsen\Desktop\NTier\NTierMovieProjectCodeFirst\NTierMovieProjectCodeFirst.DAL\obj\Debug\NTierMovieProjectCodeFirst.DAL.csproj.CopyComplete
+C:\Users\gulsen\Desktop\NTier\NTierMovieProjectCodeFirst\NTierMovieProjectCodeFirst.DAL\obj\Debug\NTierMovieProjectCodeFirst.DAL.dll
+C:\Users\gulsen\Desktop\NTier\NTierMovieProjectCodeFirst\NTierMovieProjectCodeFirst.DAL\obj\Debug\NTierMovieProjectCodeFirst.DAL.pdb
