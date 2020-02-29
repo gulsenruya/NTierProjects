@@ -31,11 +31,11 @@
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.nudMovieDuration = new System.Windows.Forms.NumericUpDown();
             this.btnSave = new System.Windows.Forms.Button();
-            this.tbxDescripton = new System.Windows.Forms.TextBox();
             this.tbxName = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
+            this.tbxDescripton = new System.Windows.Forms.TextBox();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudMovieDuration)).BeginInit();
             this.SuspendLayout();
@@ -54,10 +54,10 @@
             this.groupBox1.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Padding = new System.Windows.Forms.Padding(4);
-            this.groupBox1.Size = new System.Drawing.Size(637, 451);
+            this.groupBox1.Size = new System.Drawing.Size(565, 436);
             this.groupBox1.TabIndex = 2;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Add Movie";
+            this.groupBox1.Text = "Add Movies";
             // 
             // nudMovieDuration
             // 
@@ -79,23 +79,15 @@
             // 
             // btnSave
             // 
+            this.btnSave.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             this.btnSave.Location = new System.Drawing.Point(215, 316);
             this.btnSave.Margin = new System.Windows.Forms.Padding(4);
             this.btnSave.Name = "btnSave";
-            this.btnSave.Size = new System.Drawing.Size(275, 81);
+            this.btnSave.Size = new System.Drawing.Size(273, 54);
             this.btnSave.TabIndex = 3;
-            this.btnSave.Text = "ADD";
+            this.btnSave.Text = "ADD MOVIE";
             this.btnSave.UseVisualStyleBackColor = true;
             this.btnSave.Click += new System.EventHandler(this.btnSave_Click);
-            // 
-            // tbxDescripton
-            // 
-            this.tbxDescripton.Location = new System.Drawing.Point(215, 95);
-            this.tbxDescripton.Margin = new System.Windows.Forms.Padding(4);
-            this.tbxDescripton.Multiline = true;
-            this.tbxDescripton.Name = "tbxDescripton";
-            this.tbxDescripton.Size = new System.Drawing.Size(273, 147);
-            this.tbxDescripton.TabIndex = 2;
             // 
             // tbxName
             // 
@@ -118,7 +110,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(61, 98);
+            this.label2.Location = new System.Drawing.Point(66, 139);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(141, 29);
@@ -135,14 +127,24 @@
             this.label1.TabIndex = 1;
             this.label1.Text = "Name:";
             // 
+            // tbxDescripton
+            // 
+            this.tbxDescripton.Location = new System.Drawing.Point(215, 115);
+            this.tbxDescripton.Margin = new System.Windows.Forms.Padding(4);
+            this.tbxDescripton.Multiline = true;
+            this.tbxDescripton.Name = "tbxDescripton";
+            this.tbxDescripton.Size = new System.Drawing.Size(275, 106);
+            this.tbxDescripton.TabIndex = 2;
+            // 
             // AddMovie
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(705, 477);
+            this.AutoSize = true;
+            this.ClientSize = new System.Drawing.Size(597, 490);
             this.Controls.Add(this.groupBox1);
             this.Name = "AddMovie";
-            this.Text = "AddMovie";
+            this.Text = "Add Movie";
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudMovieDuration)).EndInit();
@@ -155,10 +157,10 @@
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.NumericUpDown nudMovieDuration;
         private System.Windows.Forms.Button btnSave;
-        private System.Windows.Forms.TextBox tbxDescripton;
         private System.Windows.Forms.TextBox tbxName;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.TextBox tbxDescripton;
     }
 }

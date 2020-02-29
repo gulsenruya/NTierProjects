@@ -41,3 +41,11 @@ C:\Users\gulsen\Desktop\NTier\NTierMovieProjectCodeFirst\NTierMovieProjectCodeFi
 C:\Users\gulsen\Desktop\NTier\NTierMovieProjectCodeFirst\NTierMovieProjectCodeFirst.WFA\obj\Debug\NTierMovieProjectCodeFirst.WFA.pdb
 C:\Users\gulsen\Desktop\NTier\NTierMovieProjectCodeFirst\NTierMovieProjectCodeFirst.WFA\obj\Debug\NTierMovieProjectCodeFirst.WFA.AddMovie.resources
 C:\Users\gulsen\Desktop\NTier\NTierMovieProjectCodeFirst\NTierMovieProjectCodeFirst.WFA\obj\Debug\NTierMovieProjectCodeFirst.WFA.AddCategory.resources
+C:\Users\gulsen\Desktop\NTier\NTierMovieProjectCodeFirst\NTierMovieProjectCodeFirst.WFA\obj\Debug\NTierMovieProjectCodeFirst.WFA.MainMenu.resources
+C:\Users\gulsen\Desktop\NTier\NTierMovieProjectCodeFirst\NTierMovieProjectCodeFirst.WFA\obj\Debug\NTierMovieProjectCodeFirst.WFA.AddSaloon.resources
+C:\Users\gulsen\Desktop\NTier\NTierMovieProjectCodeFirst\NTierMovieProjectCodeFirst.WFA\obj\Debug\NTierMovieProjectCodeFirst.WFA.AllSaloons.resources
+C:\Users\gulsen\Desktop\NTier\NTierMovieProjectCodeFirst\NTierMovieProjectCodeFirst.WFA\obj\Debug\NTierMovieProjectCodeFirst.WFA.AllMovies.resources
+C:\Users\gulsen\Desktop\NTier\NTierMovieProjectCodeFirst\NTierMovieProjectCodeFirst.WFA\obj\Debug\NTierMovieProjectCodeFirst.WFA.AllCategories.resources
+C:\Users\gulsen\Desktop\NTier\NTierMovieProjectCodeFirst\NTierMovieProjectCodeFirst.WFA\obj\Debug\NTierMovieProjectCodeFirst.WFA.AddSession.resources
+C:\Users\gulsen\Desktop\NTier\NTierMovieProjectCodeFirst\NTierMovieProjectCodeFirst.WFA\obj\Debug\NTierMovieProjectCodeFirst.WFA.AllSessions.resources
+C:\Users\gulsen\Desktop\NTier\NTierMovieProjectCodeFirst\NTierMovieProjectCodeFirst.WFA\obj\Debug\NTierMovieProjectCodeFirst.WFA.AllWeeks.resources

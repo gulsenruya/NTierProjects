@@ -12,33 +12,33 @@ using System.Windows.Forms;
 
 namespace NTierMovieProjectCodeFirst.WFA
 {
-    public partial class AddMovie : Form
+    public partial class AddSaloon : Form
     {
-        public AddMovie()
+        public AddSaloon()
         {
             InitializeComponent();
         }
-        BaseRepository<Movie> movies = new BaseRepository<Movie>();
-        private void btnSave_Click(object sender, EventArgs e)
+        BaseRepository<Saloon> saloons = new BaseRepository<Saloon>();
+
+        private void btnSaloonSave_Click(object sender, EventArgs e)
         {
             try
             {
-                if (tbxName.Text == "" || tbxDescripton.Text == "")
+                if (tbxSaloonName.Text == "")
                 {
-                    MessageBox.Show("Please do not leave any fields blank!");
+                    MessageBox.Show("Please do not leave blank !");
                 }
                 else
                 {
-                    Movie movie = new Movie()
+                    Saloon saloon = new Saloon()
                     {
-                        MovieName = tbxName.Text,
-                        Description = tbxDescripton.Text,
-                        Duration = Convert.ToInt16(nudMovieDuration.Value)
+                        Saloons = tbxSaloonName.Text,
+                        Capacity = Convert.ToInt32(nudSaloonCapacity.Value)
                     };
-                    movies.Add(movie);
-                    
-                    MessageBox.Show("Movie successfully added :)");
-                    
+                    saloons.Add(saloon);
+
+                    MessageBox.Show("Saloon successfully added :)");
+
                 }
             }
             catch (Exception x)

@@ -68,11 +68,59 @@
     <Compile Include="AddMovie.Designer.cs">
       <DependentUpon>AddMovie.cs</DependentUpon>
     </Compile>
+    <Compile Include="AddSaloon.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddSaloon.Designer.cs">
+      <DependentUpon>AddSaloon.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddSession.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddSession.Designer.cs">
+      <DependentUpon>AddSession.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AllCategories.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AllCategories.Designer.cs">
+      <DependentUpon>AllCategories.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AllMovies.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AllMovies.Designer.cs">
+      <DependentUpon>AllMovies.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AllSaloons.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AllSaloons.Designer.cs">
+      <DependentUpon>AllSaloons.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AllSessions.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AllSessions.Designer.cs">
+      <DependentUpon>AllSessions.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AllWeeks.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AllWeeks.Designer.cs">
+      <DependentUpon>AllWeeks.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainMenu.Designer.cs">
+      <DependentUpon>MainMenu.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -82,8 +130,32 @@
     <EmbeddedResource Include="AddMovie.resx">
       <DependentUpon>AddMovie.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="AddSaloon.resx">
+      <DependentUpon>AddSaloon.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddSession.resx">
+      <DependentUpon>AddSession.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AllCategories.resx">
+      <DependentUpon>AllCategories.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AllMovies.resx">
+      <DependentUpon>AllMovies.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AllSaloons.resx">
+      <DependentUpon>AllSaloons.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AllSessions.resx">
+      <DependentUpon>AllSessions.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AllWeeks.resx">
+      <DependentUpon>AllWeeks.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainMenu.resx">
+      <DependentUpon>MainMenu.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

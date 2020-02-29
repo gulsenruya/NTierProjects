@@ -25,7 +25,7 @@ namespace NTierMovieProjectCodeFirst.WFA
             {
                 if (tbxCategoryName.Text == "")
                 {
-                    MessageBox.Show("Please do not leave any fields blank!");
+                    MessageBox.Show("Please do not blank!");
                 }
                 else
                 {
