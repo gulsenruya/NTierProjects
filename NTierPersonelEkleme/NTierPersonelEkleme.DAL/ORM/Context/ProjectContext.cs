@@ -16,5 +16,7 @@ namespace NTierPersonelEkleme.DAL.ORM.Context
         }
         public DbSet<Personel> Personels { get; set; }
         public DbSet<Departman> Departmen { get; set; }
+        public DbSet<Unvan> Unvans { get; set; }
+
     }
 }

@@ -14,5 +14,9 @@ namespace NTierPersonelEkleme.DAL.ORM.Entity
         public string DepartmanAdı { get; set; }
 
         public List<Personel> personels;
+        public override string ToString()
+        {
+            return DepartmanAdı;
+        }
     }
 }

@@ -41,21 +41,17 @@
             this.rchTextboxAdres = new System.Windows.Forms.RichTextBox();
             this.dateTimePickerDogumTarihi = new System.Windows.Forms.DateTimePicker();
             this.comboBoxDepartman = new System.Windows.Forms.ComboBox();
-            this.radioButtonErkek = new System.Windows.Forms.RadioButton();
-            this.radioButtonKadin = new System.Windows.Forms.RadioButton();
             this.txtboxTC = new System.Windows.Forms.TextBox();
             this.txtboxSoyAd = new System.Windows.Forms.TextBox();
             this.txtboxAd = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.dateTimePickerİseGiris = new System.Windows.Forms.DateTimePicker();
-            this.textBox1 = new System.Windows.Forms.TextBox();
             this.label9 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.tbxTel = new System.Windows.Forms.TextBox();
@@ -64,6 +60,7 @@
             this.label11 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.btnResimSec = new System.Windows.Forms.Button();
+            this.comboBoxUnvan = new System.Windows.Forms.ComboBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -145,7 +142,7 @@
             // 
             // rchTextboxAdres
             // 
-            this.rchTextboxAdres.Location = new System.Drawing.Point(141, 428);
+            this.rchTextboxAdres.Location = new System.Drawing.Point(141, 386);
             this.rchTextboxAdres.Name = "rchTextboxAdres";
             this.rchTextboxAdres.Size = new System.Drawing.Size(224, 82);
             this.rchTextboxAdres.TabIndex = 35;
@@ -153,7 +150,7 @@
             // 
             // dateTimePickerDogumTarihi
             // 
-            this.dateTimePickerDogumTarihi.Location = new System.Drawing.Point(141, 362);
+            this.dateTimePickerDogumTarihi.Location = new System.Drawing.Point(141, 320);
             this.dateTimePickerDogumTarihi.Name = "dateTimePickerDogumTarihi";
             this.dateTimePickerDogumTarihi.Size = new System.Drawing.Size(224, 26);
             this.dateTimePickerDogumTarihi.TabIndex = 34;
@@ -166,28 +163,6 @@
             this.comboBoxDepartman.Name = "comboBoxDepartman";
             this.comboBoxDepartman.Size = new System.Drawing.Size(224, 28);
             this.comboBoxDepartman.TabIndex = 33;
-            // 
-            // radioButtonErkek
-            // 
-            this.radioButtonErkek.AutoSize = true;
-            this.radioButtonErkek.Location = new System.Drawing.Point(260, 321);
-            this.radioButtonErkek.Name = "radioButtonErkek";
-            this.radioButtonErkek.Size = new System.Drawing.Size(81, 24);
-            this.radioButtonErkek.TabIndex = 32;
-            this.radioButtonErkek.TabStop = true;
-            this.radioButtonErkek.Text = "ERKEK";
-            this.radioButtonErkek.UseVisualStyleBackColor = true;
-            // 
-            // radioButtonKadin
-            // 
-            this.radioButtonKadin.AutoSize = true;
-            this.radioButtonKadin.Location = new System.Drawing.Point(142, 321);
-            this.radioButtonKadin.Name = "radioButtonKadin";
-            this.radioButtonKadin.Size = new System.Drawing.Size(76, 24);
-            this.radioButtonKadin.TabIndex = 31;
-            this.radioButtonKadin.TabStop = true;
-            this.radioButtonKadin.Text = "KADIN";
-            this.radioButtonKadin.UseVisualStyleBackColor = true;
             // 
             // txtboxTC
             // 
@@ -217,7 +192,7 @@
             // 
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label7.ForeColor = System.Drawing.SystemColors.Control;
-            this.label7.Location = new System.Drawing.Point(12, 416);
+            this.label7.Location = new System.Drawing.Point(12, 374);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(204, 38);
             this.label7.TabIndex = 27;
@@ -227,7 +202,7 @@
             // 
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label6.ForeColor = System.Drawing.SystemColors.Control;
-            this.label6.Location = new System.Drawing.Point(4, 361);
+            this.label6.Location = new System.Drawing.Point(4, 319);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(158, 37);
             this.label6.TabIndex = 26;
@@ -242,16 +217,6 @@
             this.label5.Size = new System.Drawing.Size(192, 42);
             this.label5.TabIndex = 25;
             this.label5.Text = "Departman :";
-            // 
-            // label4
-            // 
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label4.ForeColor = System.Drawing.SystemColors.Control;
-            this.label4.Location = new System.Drawing.Point(4, 317);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(192, 42);
-            this.label4.TabIndex = 24;
-            this.label4.Text = "Cinsiyet  :";
             // 
             // label3
             // 
@@ -299,14 +264,6 @@
             this.dateTimePickerİseGiris.Name = "dateTimePickerİseGiris";
             this.dateTimePickerİseGiris.Size = new System.Drawing.Size(224, 26);
             this.dateTimePickerİseGiris.TabIndex = 40;
-            // 
-            // textBox1
-            // 
-            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.textBox1.Location = new System.Drawing.Point(639, 82);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(229, 26);
-            this.textBox1.TabIndex = 42;
             // 
             // label9
             // 
@@ -370,6 +327,7 @@
             this.pictureBox1.Location = new System.Drawing.Point(389, 183);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(229, 215);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 48;
             this.pictureBox1.TabStop = false;
             // 
@@ -383,6 +341,16 @@
             this.btnResimSec.TabIndex = 49;
             this.btnResimSec.Text = "RESİM SEÇ";
             this.btnResimSec.UseVisualStyleBackColor = true;
+            this.btnResimSec.Click += new System.EventHandler(this.BtnResimSec_Click);
+            // 
+            // comboBoxUnvan
+            // 
+            this.comboBoxUnvan.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBoxUnvan.FormattingEnabled = true;
+            this.comboBoxUnvan.Location = new System.Drawing.Point(646, 82);
+            this.comboBoxUnvan.Name = "comboBoxUnvan";
+            this.comboBoxUnvan.Size = new System.Drawing.Size(224, 28);
+            this.comboBoxUnvan.TabIndex = 50;
             // 
             // Form1
             // 
@@ -390,6 +358,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Purple;
             this.ClientSize = new System.Drawing.Size(1108, 800);
+            this.Controls.Add(this.comboBoxUnvan);
             this.Controls.Add(this.btnResimSec);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.tbxTel);
@@ -397,7 +366,6 @@
             this.Controls.Add(this.label10);
             this.Controls.Add(this.label11);
             this.Controls.Add(this.button1);
-            this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.dateTimePickerİseGiris);
             this.Controls.Add(this.label8);
@@ -407,15 +375,12 @@
             this.Controls.Add(this.rchTextboxAdres);
             this.Controls.Add(this.dateTimePickerDogumTarihi);
             this.Controls.Add(this.comboBoxDepartman);
-            this.Controls.Add(this.radioButtonErkek);
-            this.Controls.Add(this.radioButtonKadin);
             this.Controls.Add(this.txtboxTC);
             this.Controls.Add(this.txtboxSoyAd);
             this.Controls.Add(this.txtboxAd);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
-            this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
@@ -423,6 +388,7 @@
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "Form1";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -444,21 +410,17 @@
         private System.Windows.Forms.RichTextBox rchTextboxAdres;
         private System.Windows.Forms.DateTimePicker dateTimePickerDogumTarihi;
         private System.Windows.Forms.ComboBox comboBoxDepartman;
-        private System.Windows.Forms.RadioButton radioButtonErkek;
-        private System.Windows.Forms.RadioButton radioButtonKadin;
         private System.Windows.Forms.TextBox txtboxTC;
         private System.Windows.Forms.TextBox txtboxSoyAd;
         private System.Windows.Forms.TextBox txtboxAd;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.DateTimePicker dateTimePickerİseGiris;
-        private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.TextBox tbxTel;
@@ -467,6 +429,7 @@
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Button btnResimSec;
+        private System.Windows.Forms.ComboBox comboBoxUnvan;
     }
 }
 

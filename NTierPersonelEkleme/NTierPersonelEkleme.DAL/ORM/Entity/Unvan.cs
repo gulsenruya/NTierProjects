@@ -11,7 +11,11 @@ namespace NTierPersonelEkleme.DAL.ORM.Entity
     {
         [Key]
         public int UnvanID { get; set; }
-        public int UnvanAdi { get; set; }
+        public string UnvanAdi { get; set; }
         public List<Personel> Personels { get; set; }
+        public override string ToString()
+        {
+            return UnvanAdi;
+        }
     }
 }
