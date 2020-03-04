@@ -1,4 +1,5 @@
-﻿using NTierPersonelEkleme.BLL.Repositories;
+﻿using NTierPersonelEkleme.BLL.CreationalFactory;
+using NTierPersonelEkleme.BLL.Repositories;
 using NTierPersonelEkleme.DAL.ORM.Entity;
 using System;
 using System.Collections.Generic;
@@ -16,6 +17,7 @@ namespace NTierPersonelEkleme.WFA
     {
         public Form1()
         {
+
             InitializeComponent();
         }
         BaseRepository<Personel>  personels = new BaseRepository<Personel>();
@@ -49,6 +51,8 @@ namespace NTierPersonelEkleme.WFA
         private void Form1_Load(object sender, EventArgs e)
         {
             ComboboxDoldur();
+            //Creator creator = new Creator();
+            ////Departman ık = creator.FactoryMethod(Departman)
         }
 
         private void BtnResimSec_Click(object sender, EventArgs e)
