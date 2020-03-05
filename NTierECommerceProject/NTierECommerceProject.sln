@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NTierECommerceProject.BLL",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NTierECommerceProject.DAL", "NTierECommerceProject.DAL\NTierECommerceProject.DAL.csproj", "{8D90EE1A-3A87-4648-95F0-9BFA4B847D13}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NTierECommerceProject.WFA", "NTierECommerceProject.WFA\NTierECommerceProject.WFA.csproj", "{F969FA03-EBAA-4715-AEFD-5CDC2D52452E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{8D90EE1A-3A87-4648-95F0-9BFA4B847D13}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8D90EE1A-3A87-4648-95F0-9BFA4B847D13}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8D90EE1A-3A87-4648-95F0-9BFA4B847D13}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F969FA03-EBAA-4715-AEFD-5CDC2D52452E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F969FA03-EBAA-4715-AEFD-5CDC2D52452E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F969FA03-EBAA-4715-AEFD-5CDC2D52452E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F969FA03-EBAA-4715-AEFD-5CDC2D52452E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
