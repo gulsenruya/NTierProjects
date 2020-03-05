@@ -1,0 +1,12 @@
+C:\Users\gulsen.ruya\source\repos\NTierECommerceProject\NTierECommerceProject.DAL\bin\Debug\NTierECommerceProject.DAL.dll.config
+C:\Users\gulsen.ruya\source\repos\NTierECommerceProject\NTierECommerceProject.DAL\bin\Debug\NTierECommerceProject.DAL.dll
+C:\Users\gulsen.ruya\source\repos\NTierECommerceProject\NTierECommerceProject.DAL\bin\Debug\NTierECommerceProject.DAL.pdb
+C:\Users\gulsen.ruya\source\repos\NTierECommerceProject\NTierECommerceProject.DAL\bin\Debug\EntityFramework.dll
+C:\Users\gulsen.ruya\source\repos\NTierECommerceProject\NTierECommerceProject.DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\gulsen.ruya\source\repos\NTierECommerceProject\NTierECommerceProject.DAL\bin\Debug\EntityFramework.xml
+C:\Users\gulsen.ruya\source\repos\NTierECommerceProject\NTierECommerceProject.DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\gulsen.ruya\source\repos\NTierECommerceProject\NTierECommerceProject.DAL\obj\Debug\NTierECommerceProject.DAL.csprojAssemblyReference.cache
+C:\Users\gulsen.ruya\source\repos\NTierECommerceProject\NTierECommerceProject.DAL\obj\Debug\NTierECommerceProject.DAL.csproj.CoreCompileInputs.cache
+C:\Users\gulsen.ruya\source\repos\NTierECommerceProject\NTierECommerceProject.DAL\obj\Debug\NTierECommerceProject.DAL.csproj.CopyComplete
+C:\Users\gulsen.ruya\source\repos\NTierECommerceProject\NTierECommerceProject.DAL\obj\Debug\NTierECommerceProject.DAL.dll
+C:\Users\gulsen.ruya\source\repos\NTierECommerceProject\NTierECommerceProject.DAL\obj\Debug\NTierECommerceProject.DAL.pdb
