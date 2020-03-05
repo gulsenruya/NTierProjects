@@ -61,13 +61,16 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.btnResimSec = new System.Windows.Forms.Button();
             this.comboBoxUnvan = new System.Windows.Forms.ComboBox();
+            this.columnHeader8 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader9 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader10 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // button_Sil
             // 
-            this.button_Sil.BackColor = System.Drawing.Color.MediumPurple;
-            this.button_Sil.Location = new System.Drawing.Point(639, 351);
+            this.button_Sil.BackColor = System.Drawing.Color.Crimson;
+            this.button_Sil.Location = new System.Drawing.Point(639, 335);
             this.button_Sil.Name = "button_Sil";
             this.button_Sil.Size = new System.Drawing.Size(231, 42);
             this.button_Sil.TabIndex = 38;
@@ -86,12 +89,12 @@
             // 
             // columnHeader5
             // 
-            this.columnHeader5.Text = "Departman";
+            this.columnHeader5.Text = "Email";
             this.columnHeader5.Width = 126;
             // 
             // columnHeader4
             // 
-            this.columnHeader4.Text = "Cinsiyet";
+            this.columnHeader4.Text = "Telefon";
             this.columnHeader4.Width = 115;
             // 
             // columnHeader3
@@ -130,12 +133,15 @@
             this.columnHeader4,
             this.columnHeader5,
             this.columnHeader6,
-            this.columnHeader7});
+            this.columnHeader7,
+            this.columnHeader8,
+            this.columnHeader9,
+            this.columnHeader10});
             this.listView1.GridLines = true;
             this.listView1.HideSelection = false;
-            this.listView1.Location = new System.Drawing.Point(12, 540);
+            this.listView1.Location = new System.Drawing.Point(8, 505);
             this.listView1.Name = "listView1";
-            this.listView1.Size = new System.Drawing.Size(1067, 255);
+            this.listView1.Size = new System.Drawing.Size(1071, 295);
             this.listView1.TabIndex = 37;
             this.listView1.UseCompatibleStateImageBehavior = false;
             this.listView1.View = System.Windows.Forms.View.Details;
@@ -352,11 +358,26 @@
             this.comboBoxUnvan.Size = new System.Drawing.Size(224, 28);
             this.comboBoxUnvan.TabIndex = 50;
             // 
+            // columnHeader8
+            // 
+            this.columnHeader8.Text = "İşe Giriş Tarihi";
+            this.columnHeader8.Width = 105;
+            // 
+            // columnHeader9
+            // 
+            this.columnHeader9.Text = "Unvan";
+            this.columnHeader9.Width = 84;
+            // 
+            // columnHeader10
+            // 
+            this.columnHeader10.Text = "Departman";
+            this.columnHeader10.Width = 109;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.Purple;
+            this.BackColor = System.Drawing.SystemColors.ControlDarkDark;
             this.ClientSize = new System.Drawing.Size(1108, 800);
             this.Controls.Add(this.comboBoxUnvan);
             this.Controls.Add(this.btnResimSec);
@@ -430,6 +451,9 @@
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Button btnResimSec;
         private System.Windows.Forms.ComboBox comboBoxUnvan;
+        private System.Windows.Forms.ColumnHeader columnHeader8;
+        private System.Windows.Forms.ColumnHeader columnHeader9;
+        private System.Windows.Forms.ColumnHeader columnHeader10;
     }
 }
 

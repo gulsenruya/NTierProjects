@@ -1,5 +1,6 @@
 ﻿using NTierPersonelEkleme.BLL.CreationalFactory;
 using NTierPersonelEkleme.BLL.Repositories;
+using NTierPersonelEkleme.DAL.ORM.Context;
 using NTierPersonelEkleme.DAL.ORM.Entity;
 using System;
 using System.Collections.Generic;
@@ -22,9 +23,11 @@ namespace NTierPersonelEkleme.WFA
         }
         //BaseRepository<Personel>  personels = new BaseRepository<Personel>();
         BaseRepository<Personel> personels = BaseRepository<Personel>.Nesne;
+        Personel personel = new Personel();
+        ProjectContext db = new ProjectContext();
         private void BtnEkle_Click(object sender, EventArgs e)
         {
-            Personel personel = new Personel();
+            
 
             personel.PersonelAdi = txtboxAd.Text;
             personel.PersonelSoyadi = txtboxSoyAd.Text;
@@ -42,7 +45,7 @@ namespace NTierPersonelEkleme.WFA
             {
                 personel.FotografUrl = Guid.NewGuid() + pictureBox1.Tag.ToString();
 
-                //pictureBox1.Image.Save(Application.StartupPath + @"C:\Users\gulsen.ruya\Desktop\04.03.2020\NTierPersonelEkleme\NTierPersonelEkleme.WFA\Images" + personel.FotografUrl);
+                //pictureBox1.Image.Save(Application.StartupPath +  + personel.FotografUrl);
             }
             personels.Add(personel);
             MessageBox.Show("Personel added :) ");
@@ -52,6 +55,7 @@ namespace NTierPersonelEkleme.WFA
         private void Form1_Load(object sender, EventArgs e)
         {
             ComboboxDoldur();
+            ListViewDoldur();
             Creator creator = new Creator();
             DepartmanCreator ıkDepartman = creator.FactoryMethod(AllDepartmants.IK);
             DepartmanCreator ıtDepartman = creator.FactoryMethod(AllDepartmants.IT);
@@ -82,6 +86,11 @@ namespace NTierPersonelEkleme.WFA
             }
             //comboBoxDepartman.DataSource = departman.SelectAll();
             comboBoxUnvan.DataSource = unvan.SelectAll();
+        }
+        public void ListViewDoldur()
+        {
+            //ListViewItem listView = new ListViewItem();
+            //listView.Text =
         }
     }
 }
