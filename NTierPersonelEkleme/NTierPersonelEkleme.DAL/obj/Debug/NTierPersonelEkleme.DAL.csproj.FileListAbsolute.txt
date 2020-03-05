@@ -22,3 +22,15 @@ C:\Users\gulsen.ruya\Desktop\04.03.2020\NTierPersonelEkleme\NTierPersonelEkleme.
 C:\Users\gulsen.ruya\Desktop\04.03.2020\NTierPersonelEkleme\NTierPersonelEkleme.DAL\obj\Debug\NTierPersonelEkleme.DAL.csproj.CopyComplete
 C:\Users\gulsen.ruya\Desktop\04.03.2020\NTierPersonelEkleme\NTierPersonelEkleme.DAL\obj\Debug\NTierPersonelEkleme.DAL.dll
 C:\Users\gulsen.ruya\Desktop\04.03.2020\NTierPersonelEkleme\NTierPersonelEkleme.DAL\obj\Debug\NTierPersonelEkleme.DAL.pdb
+C:\Users\gulsen.ruya\Desktop\Creator\NTierPersonelEkleme\NTierPersonelEkleme.DAL\bin\Debug\NTierPersonelEkleme.DAL.dll.config
+C:\Users\gulsen.ruya\Desktop\Creator\NTierPersonelEkleme\NTierPersonelEkleme.DAL\bin\Debug\NTierPersonelEkleme.DAL.dll
+C:\Users\gulsen.ruya\Desktop\Creator\NTierPersonelEkleme\NTierPersonelEkleme.DAL\bin\Debug\NTierPersonelEkleme.DAL.pdb
+C:\Users\gulsen.ruya\Desktop\Creator\NTierPersonelEkleme\NTierPersonelEkleme.DAL\bin\Debug\EntityFramework.dll
+C:\Users\gulsen.ruya\Desktop\Creator\NTierPersonelEkleme\NTierPersonelEkleme.DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\gulsen.ruya\Desktop\Creator\NTierPersonelEkleme\NTierPersonelEkleme.DAL\bin\Debug\EntityFramework.xml
+C:\Users\gulsen.ruya\Desktop\Creator\NTierPersonelEkleme\NTierPersonelEkleme.DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\gulsen.ruya\Desktop\Creator\NTierPersonelEkleme\NTierPersonelEkleme.DAL\obj\Debug\NTierPersonelEkleme.DAL.csprojAssemblyReference.cache
+C:\Users\gulsen.ruya\Desktop\Creator\NTierPersonelEkleme\NTierPersonelEkleme.DAL\obj\Debug\NTierPersonelEkleme.DAL.csproj.CoreCompileInputs.cache
+C:\Users\gulsen.ruya\Desktop\Creator\NTierPersonelEkleme\NTierPersonelEkleme.DAL\obj\Debug\NTierPersonelEkleme.DAL.csproj.CopyComplete
+C:\Users\gulsen.ruya\Desktop\Creator\NTierPersonelEkleme\NTierPersonelEkleme.DAL\obj\Debug\NTierPersonelEkleme.DAL.dll
+C:\Users\gulsen.ruya\Desktop\Creator\NTierPersonelEkleme\NTierPersonelEkleme.DAL\obj\Debug\NTierPersonelEkleme.DAL.pdb

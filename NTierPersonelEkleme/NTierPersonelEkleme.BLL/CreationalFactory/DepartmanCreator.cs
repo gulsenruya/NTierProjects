@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace NTierPersonelEkleme.BLL.CreationalFactory
 {
-    public abstract class Departman
+    public abstract class DepartmanCreator
     {
         public abstract void Departman();
     }

@@ -54,7 +54,9 @@
     <Compile Include="CreationalFactory\AllDepartmants.cs" />
     <Compile Include="CreationalFactory\Creator.cs" />
     <Compile Include="CreationalFactory\IK.cs" />
-    <Compile Include="CreationalFactory\Departman.cs" />
+    <Compile Include="CreationalFactory\DepartmanCreator.cs" />
+    <Compile Include="CreationalFactory\IT.cs" />
+    <Compile Include="CreationalFactory\Muhasebe.cs" />
     <Compile Include="CreationalFactory\Yonetim.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repositories\BaseRepository.cs" />

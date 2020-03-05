@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace NTierPersonelEkleme.BLL.CreationalFactory
 {
-    public class IK : Departman
+    public class IK : DepartmanCreator
     {
         public override void Departman()
         {

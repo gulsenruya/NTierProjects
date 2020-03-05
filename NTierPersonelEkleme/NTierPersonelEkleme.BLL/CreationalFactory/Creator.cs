@@ -8,9 +8,9 @@ namespace NTierPersonelEkleme.BLL.CreationalFactory
 {
     public class Creator
     {
-        public Departman FactoryMethod(AllDepartmants allDepartmants)
+        public DepartmanCreator FactoryMethod(AllDepartmants allDepartmants)
         {
-            Departman departman = null;
+            DepartmanCreator departman = null;
             switch (allDepartmants)
             {
                 case AllDepartmants.Muhasebe:

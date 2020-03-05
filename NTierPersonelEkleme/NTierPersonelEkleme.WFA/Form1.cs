@@ -20,7 +20,8 @@ namespace NTierPersonelEkleme.WFA
 
             InitializeComponent();
         }
-        BaseRepository<Personel>  personels = new BaseRepository<Personel>();
+        //BaseRepository<Personel>  personels = new BaseRepository<Personel>();
+        BaseRepository<Personel> personels = BaseRepository<Personel>.Nesne;
         private void BtnEkle_Click(object sender, EventArgs e)
         {
             Personel personel = new Personel();
@@ -51,8 +52,11 @@ namespace NTierPersonelEkleme.WFA
         private void Form1_Load(object sender, EventArgs e)
         {
             ComboboxDoldur();
-            //Creator creator = new Creator();
-            ////Departman ık = creator.FactoryMethod(Departman)
+            Creator creator = new Creator();
+            DepartmanCreator ıkDepartman = creator.FactoryMethod(AllDepartmants.IK);
+            DepartmanCreator ıtDepartman = creator.FactoryMethod(AllDepartmants.IT);
+            DepartmanCreator muhasebeDepartman = creator.FactoryMethod(AllDepartmants.Muhasebe);
+            DepartmanCreator yonetimDepartman = creator.FactoryMethod(AllDepartmants.Yönetim);
         }
 
         private void BtnResimSec_Click(object sender, EventArgs e)
@@ -69,9 +73,14 @@ namespace NTierPersonelEkleme.WFA
         }
         public void ComboboxDoldur()
         {
-            BaseRepository<Departman> departman = new BaseRepository<Departman>();
-            BaseRepository<Unvan> unvan = new BaseRepository<Unvan>();
-            comboBoxDepartman.DataSource = departman.SelectAll();
+            //BaseRepository<Departman> departman = new BaseRepository<Departman>();
+            //BaseRepository<Unvan> unvan = new BaseRepository<Unvan>();
+            BaseRepository<Unvan> unvan = BaseRepository<Unvan>.Nesne; 
+            foreach (var item in Enum.GetValues(typeof(AllDepartmants)))
+            {
+                comboBoxDepartman.Items.Add(item);
+            }
+            //comboBoxDepartman.DataSource = departman.SelectAll();
             comboBoxUnvan.DataSource = unvan.SelectAll();
         }
     }
